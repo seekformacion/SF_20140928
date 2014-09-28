@@ -2,9 +2,9 @@
 
 global $v;
 
-$v['where']['cacheQ']=0;
+$v['where']['cacheQ']=1;
 
-$_SERVER['HTTP_X_UA_DEVICE']='';
+//$_SERVER['HTTP_X_UA_DEVICE']='';
 
 if(array_key_exists('q', $_GET)){
 $v['where']['url']=$_GET['q'];
