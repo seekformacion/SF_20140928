@@ -44,10 +44,10 @@ includeCORE('funcs/general');
 
 includeFUNC('URLdata');  ##### obtengo datos de la url tipo de pagina e id asociado
 
-echo "aqui3";
+
 includeCORE('funcs/phrassCount');
 
-
+echo "aqui4";
 
 #echo loadChild('objt','arbol');
 
