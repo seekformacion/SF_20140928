@@ -1,0 +1,68 @@
+
+.mapF {
+    background-image: url("/img/global/allviews/spainF.png");
+    background-repeat: no-repeat;
+}
+
+.mapP {
+    background-image: url("/img/global/allviews/spainP.png");
+    background-repeat: no-repeat;
+}
+
+.mapaSp{ width: 309px; height: 242px; position:relative; float:left; margin:0px 20px 20px 0px;}
+
+
+.p010 {  background-position: 	-152px 0px;	width: 24px; height: 24px;	left: 136px;top: 21px;	 background-repeat: no-repeat;position: absolute;}
+.p020 {  background-position: 	-178px 0px;	width: 45px; height: 42px;	left: 144px;top: 133px;	 background-repeat: no-repeat;position: absolute;}
+.p030 {  background-position: 	-226px 0px;	width: 30px; height: 32px;	left: 184px;top: 148px;	 background-repeat: no-repeat;position: absolute;}
+.p040 {  background-position: 	-256px 0px;	width: 35px; height: 36px;	left: 138px;top: 176px;	 background-repeat: no-repeat;position: absolute;}
+.p050 {  background-position: 	-291px 0px;	width: 36px; height: 34px;	left: 81px;top: 82px;	 background-repeat: no-repeat;position: absolute;}
+.p060 {  background-position: 	-328px 0px;	width: 61px; height: 44px;	left: 45px;top: 133px;	 background-repeat: no-repeat;position: absolute;}
+
+.p070 {  background-position: 	-391px 0px;	width: 27px; height: 23px;	left: 259px;top: 118px;	 background-repeat: no-repeat;position: absolute;}
+.p077 {  background-position: 	-407px -29px;	width: 13px; height: 11px;	left: 291px;top: 114px;	 background-repeat: no-repeat;position: absolute;}
+.p078 {  background-position: 	-390px -29px;	width: 11px; height: 10px;	left: 234px;top: 143px;	 background-repeat: no-repeat;position: absolute;}
+
+.p080 {  background-position: 	-81px 0px;	width: 32px; height: 39px;	left: 239px;top: 49px;	 background-repeat: no-repeat;position: absolute;}
+.p090 {  background-position: 	-422px 0px;	width: 43px; height: 53px;	left: 111px;top: 22px;	 background-repeat: no-repeat;position: absolute;}
+.p100 {  background-position: 	-466px 0px;	width: 58px; height: 43px;	left: 41px;top: 103px;	 background-repeat: no-repeat;position: absolute;}
+.p110 {  background-position: 	-524px 0px;	width: 32px; height: 31px;	left: 66px;top: 200px;	 background-repeat: no-repeat;position: absolute;}
+.p120 {  background-position: 	-556px 0px;	width: 32px; height: 34px;	left: 188px;top: 93px;	 background-repeat: no-repeat;position: absolute;}
+.p130 {  background-position: 	-589px 0px;	width: 55px; height: 38px;	left: 96px;top: 128px;	 background-repeat: no-repeat;position: absolute;}
+.p140 {  background-position: 	-643px 0px;	width: 37px; height: 45px;	left: 84px;top: 152px;	 background-repeat: no-repeat;position: absolute;}
+.p150 {  background-position: 	-680px 0px;	width: 38px; height: 40px;	left: 2px;top: 4px;	 background-repeat: no-repeat;position: absolute;}
+.p160 {  background-position: 	-719px 0px;	width: 47px; height: 43px;	left: 137px;top: 97px;	 background-repeat: no-repeat;position: absolute;}
+.p170 {  background-position: 	-114px 0px;	width: 36px; height: 25px;	left: 246px;top: 44px;	 background-repeat: no-repeat;position: absolute;}
+.p180 {  background-position: 	-769px 0px;	width: 47px; height: 44px;	left: 112px;top: 169px;	 background-repeat: no-repeat;position: absolute;}
+.p190 {  background-position: 	-34px 0px;	width: 46px; height: 35px;	left: 129px;top: 79px;	 background-repeat: no-repeat;position: absolute;}
+.p200 {  background-position:  	0px -61px;	width: 22px; height: 19px;	left: 149px;top: 15px;	 background-repeat: no-repeat;position: absolute;}
+.p210 {  background-position:  	-22px -61px;	width: 33px; height: 42px;	left: 41px;top: 167px;	 background-repeat: no-repeat;position: absolute;}
+.p220 {  background-position:  	-55px -61px;	width: 39px; height: 48px;	left: 188px;top: 31px;	 background-repeat: no-repeat;position: absolute;}
+.p230 {  background-position:  	-94px -61px;	width: 43px; height: 35px;	left: 112px;top: 158px;	 background-repeat: no-repeat;position: absolute;}
+.p240 {  background-position:  	-137px -61px;	width: 54px; height: 40px;	left: 52px;top: 20px;	 background-repeat: no-repeat;position: absolute;}
+.p250 {  background-position:  	-191px -61px;	width: 35px; height: 50px;	left: 216px;top: 32px;	 background-repeat: no-repeat;position: absolute;}
+.p260 {  background-position:  	-226px -61px;	width: 35px; height: 25px;	left: 137px;top: 38px;	 background-repeat: no-repeat;position: absolute;}
+.p270 {  background-position:  	-261px -61px;	width: 27px; height: 45px;	left: 31px;top: 4px;	 background-repeat: no-repeat;position: absolute;}
+.p280 {  background-position: 	0px 0px;	width: 34px; height: 39px;	left: 107px;top: 84px;	 background-repeat: no-repeat;position: absolute;}
+.p290 {  background-position:  	-288px -61px;	width: 47px; height: 30px;	left: 82px;top: 193px;	 background-repeat: no-repeat;position: absolute;}
+.p300 {  background-position:  	-335px -61px;	width: 37px; height: 41px;	left: 156px;top: 152px;	 background-repeat: no-repeat;position: absolute;}
+.p310 {  background-position:  	-372px -61px;	width: 41px; height: 45px;	left: 153px;top: 18px;	 background-repeat: no-repeat;position: absolute;}
+.p320 {  background-position:  	-413px -61px;	width: 38px; height: 26px;	left: 22px;top: 40px;	 background-repeat: no-repeat;position: absolute;}
+.p330 {  background-position:  	-451px -61px;	width: 62px; height: 27px;	left: 48px;top: 7px;	 background-repeat: no-repeat;position: absolute;}
+.p340 {  background-position:  	-512px -61px;	width: 28px; height: 40px;	left: 97px;top: 26px;	 background-repeat: no-repeat;position: absolute;}
+.p350 {  background-position:  	-540px -61px;	width: 55px; height: 43px;	left: 250px;top: 186px;	 background-repeat: no-repeat;position: absolute;}
+.p360 {  background-position:  	-595px -61px;	width: 25px; height: 33px;	left: 10px;top: 31px;	 background-repeat: no-repeat;position: absolute;}
+.p370 {  background-position:  	-620px -61px;	width: 44px; height: 36px;	left: 55px;top: 77px;	 background-repeat: no-repeat;position: absolute;}
+.p380 {  background-position:  	-664px -61px;	width: 47px; height: 33px;	left: 198px;top: 197px;	 background-repeat: no-repeat;position: absolute;}
+.p390 {  background-position:  	-711px -61px;	width: 41px; height: 25px;	left: 98px;top: 12px;	 background-repeat: no-repeat;position: absolute;}
+.p400 {  background-position:  	-752px -61px;	width: 34px; height: 30px;	left: 104px;top: 71px;	 background-repeat: no-repeat;position: absolute;}
+.p410 {  background-position:  	-786px -61px;	width: 45px; height: 40px;	left: 62px;top: 168px;	 background-repeat: no-repeat;position: absolute;}
+.p420 {  background-position:  	-0px -117px;	width: 42px; height: 35px;	left: 128px;top: 53px;	 background-repeat: no-repeat;position: absolute;}
+.p430 {  background-position:  	-42px -117px;	width: 35px; height: 34px;	left: 212px;top: 69px;	 background-repeat: no-repeat;position: absolute;}
+.p440 {  background-position:  	-77px -117px;	width: 48px; height: 46px;	left: 168px;top: 78px;	 background-repeat: no-repeat;position: absolute;}
+.p450 {  background-position:  	-125px -117px;	width: 56px; height: 33px;	left: 88px;top: 107px;	 background-repeat: no-repeat;position: absolute;}
+.p460 {  background-position:  	-181px -117px;	width: 37px; height: 46px;	left: 172px;top: 110px;	 background-repeat: no-repeat;position: absolute;}
+.p470 {  background-position:  	-218px -117px;	width: 35px; height: 38px;	left: 88px;top: 48px;	 background-repeat: no-repeat;position: absolute;}
+.p480 {  background-position:  	-252px -117px;	width: 26px; height: 16px;	left: 130px;top: 14px;	 background-repeat: no-repeat;position: absolute;}
+.p490 {  background-position:  	-278px -117px;	width: 42px; height: 36px;	left: 53px;top: 50px;	 background-repeat: no-repeat;position: absolute;}
+.p500 {  background-position:  	-320px -117px;	width: 58px; height: 57px;	left: 160px;top: 35px;	 background-repeat: no-repeat;position: absolute;}

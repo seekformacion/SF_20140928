@@ -1,0 +1,221 @@
+.alert { background-color: #888888;    border: 1px dotted;    color: #FFFFFF;    height: 23px;    left: 21px;    padding: 12px 0 0 33px;    position: absolute;    top: 10px;    width: 842px;}
+.closeA { background-position: -5px -41px;    cursor: pointer;    height: 15px;    left: 855px;    position: absolute;    top: 3px;    width: 15px;}
+.ialert { background-position: -31px -41px;    cursor: pointer;    height: 20px;    left: 8px;    position: absolute;    top: 7px;    width: 25px;}
+
+
+.lcSOC   {height: 200px; overflow:hidden;left: 50%; position: fixed; border: 1px solid #666666; top: 50%; width: 400px;    z-index: 9999; visibility: hidden;margin-left: -200px; margin-top:-100px;}
+.amiSOC {width:360px; text-align: center; font-family: Arial; font-size:13px; margin:40px 0 0 20px;}
+
+.carrito {  height: 500px; overflow:hidden;     left: 50%;    position: fixed;     border: 1px solid #666666;    top: 50%;    width: 800px;    z-index: 9999; visibility: hidden;}
+
+
+
+    
+.showdoit {  background-color: #FFFFFF;    height: 238px;    left: 22px;    position: absolute;    top: 102px;    width: 753px;}    
+#timer {position: absolute; top:90px; left:352px;}
+
+.fin {position: absolute; top:10px; left:10px; width: 734px; height:220px; }
+.social {position: absolute; top:86px; left:35px; width: 734px; height:220px; text-align: center; font-size: 16px;}
+.social2 { position: absolute; top:146px; left:35px; width: 734px; height:120px;  }    
+ 
+.bsoci { border: 1px solid #888888;    cursor: pointer;    height: 130px;    position: absolute;    top: 13px;    width: 205px;}    
+.tweet {left:30px;} .facebook {left:266px;}   .gplus {left:499px;}       
+
+.fabaS {background-position: -210px -119px;    height: 35px;    left: 89px;    position: absolute;    top: 87px;    width: 30px;}  
+   
+    
+.alSld {float:left; height: 500px;  width: 3200px;}
+
+.posSld0 {position: relative; top: 0px; float:left; height: 500px; width:800px;  }
+.posSld1 {position: relative; top: 0px; float:left; height: 500px; width:800px;  }
+.posSld2 {position: relative; top: 0px; float:left; height: 500px; width:800px;  }
+.posSld3 {position: relative; top: 0px; float:left; height: 500px; width:800px;  }
+
+.frjSup 		{position: absolute; top: 25px; left: 0px; width:800px; height:25px; border-top:1px solid #CCCCCC; border-bottom:1px solid #DDDDDD; }
+.frjSup	p		{margin:6px 0px 0px 76px; font-size:13px; font-family:Arial; }
+.carrito .iFAV	{position: absolute; top: 15px; left: 20px;}
+
+
+.frjIn	{position: absolute; top: 360px; left: 0px;   width:800px; height:95px; border-top:1px solid #CCCCCC; border-bottom:1px solid #DDDDDD; }
+.LftB	{position: absolute; top: 361px; left: 50px;  width:200px; height:95px; background-color:#FFFFFF; cursor: pointer }
+.RhtB	{position: absolute; top: 361px; left: 550px; width:200px; height:95px; background-color:#FFFFFF; cursor: pointer }
+
+
+
+
+
+
+.LftB p {  font-family: Arial;    font-size: 18px;    height: 50px;    margin: 6px 9px 0 0 ;    text-align: right;    width: 190px;}
+.RhtB p {  font-family: Arial;    font-size: 18px;    height: 50px;    margin: 6px 0 0 9px;    text-align: left;    width: 190px;}
+
+
+.acept {height: 56px; left: 77px; position: absolute; top: 157px; width: 130px; font-size: 9px; color:#555555; }
+
+.RhtBF	{background-color: #FFFFFF;    border: 1px solid #BBBBBB;    cursor: pointer;    height: 56px;    left: 231px;    position: absolute;    top: 155px;    width: 429px; }
+    
+.RhtBF p {  font-family: Arial;    font-size: 18px;    height: 50px;    margin: 6px 0 0 9px;    text-align: left;    width: 343px;}
+.fenv {height: 56px; left: 355px;  position: absolute;  top: 0;  width: 74px;}
+    
+.frigENV { background-position: -220px -154px; height: 43px; left: 378px; position: absolute; top: 9px; width: 30px;}    
+
+.contScu {position: absolute; top: 100px; left: 21px;   width:758px; height:240px; border:1px solid #CCCCCC;}
+.PcScu {   font-size: 12px;    height: 18px;     position: absolute;    top: 77px; cursor: pointer;}
+
+.ctScu {position: absolute; top: 5px; left: 10px;   width:738px; height:233px; visibility: hidden; }
+.intCo {position: absolute; top: 20px ; width:715px; height: 206px; overflow: hidden; }
+
+.acdCr :hover {background-color: #EEEEEE;}
+.cdCr {  border-bottom: 1px solid #EEEEEE;    border-top: 1px solid #EEEEEE;   float: left;  font-size: 11px; margin-bottom: 7px; min-height: 23px; padding: 3px; position: relative;  width: 720px;}
+    
+.cdCr .tit { width: 280px; position: relative; float: left;}
+.cdCr .tip { width: 110px; position: relative; float: left; text-align: center; margin-left: 10px;}
+.cdCr .met { width: 80px; position: relative; float: left; text-align: center; margin-left: 10px;}
+.cdCr .dur { width: 62px; position: relative; float: left; text-align: center; margin-left: 15px;}
+.cdCr .pre { width: 52px; position: relative; float: left; text-align: center; margin-left:3px;}
+.cdCr .imgCc { width: 45px; position: relative; float: left; border:1px solid #CCCCCC; padding:1px; margin-left: 10px;}
+
+.cdCrL {float: left;    font-size: 11px;    margin-bottom:2px;    padding: 3px;    position: relative;    width: 720px;}
+
+
+.cdCrL .tit { width: 300px; position: relative; float: left;}
+.cdCrL .tip { width: 110px; position: relative; float: left; text-align: center;margin-left: 9px;}
+.cdCrL .met { width: 80px; position: relative; float: left; text-align: center;margin-left: 11px;}
+.cdCrL .dur { width: 62px; position: relative; float: left; text-align: center;margin-left: 14px;}
+.cdCrL .pre { width: 62px; position: relative; float: left; text-align: center;margin-left: 1px;}
+.cdCrL .cent { width: 50px; position: relative; float: left; text-align: center;margin-left: -11px;}
+
+.farr {background-position: -317px -167px; height: 19px; left: 725px; position: absolute; top: 60px; width: 18px;}
+.faba {height: 19px; left: 725px; position: absolute; top: 170px; width: 18px; background-position: -297px -168px;}
+
+.facti {   background-position: -253px -154px;    float: right;    height: 19px;    position: relative;   top: -4px;    width: 15px;}
+.fnacti { background-position: -271px -154px;    float: right;    height: 19px;    position: relative;    top: -4px;    width: 15px; }
+
+.P1 {left: 30px;   width:150px;} 
+.P2 {left: 197px;   width:178px;} 
+
+.act { padding: 4px 9px 1px 5px;  border-left:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-right:1px solid #CCCCCC; background-color: #FFFFFF;}
+.nact { padding: 5px 9px 1px 6px;  border:0px; background-color: transparent;}
+ 
+
+
+.smedia {background-position: -105px 0;    position: absolute;    height: 40px;    top:51px; left:44px;    width: 150px; }
+.formats { background-position: -4px -154px;    height: 50px;    left: 5px;    position: absolute;    top: 53px;    width: 177px;}
+.flef{ background-position: -188px -154px;    height: 50px;    left: -41px;    position: absolute;    top: 31px;    width: 30px;}
+.frig{  background-position: -220px -154px;    height: 43px;    left: 211px;    position: absolute;    top: 31px;    width: 30px;}
+
+.cloff {background-position: -140px -40px; width: 26px; height: 20px; left: 682px; position: relative; top:7px; cursor:pointer; }
+.clon {background-position: -113px -40px;  width: 26px; height: 20px; left: 682px; position: relative; top:7px; cursor:pointer; }
+
+
+/* formulario */
+
+.contScuF {position: absolute; top: 100px; left: 21px;   width:730px; padding-left:25px; height:240px; border:1px solid #CCCCCC;}
+
+
+
+.ffL1 {position:absolute; margin:20px 0 0 20px; float:left; top:0px;}
+.ffL2 {position:absolute; margin:20px 0 0 20px; float:left; top:70px;}
+
+.ffL1B {position:absolute; margin:10px 0 0 52px; float:left; top:0px;}
+.ffL2B {position:absolute; margin:20px 0 0 52px; float:left; top:60px;}
+
+.cDat {position: relative; float:left; margin:0 20px 0 0; }
+.cDat p {margin-left:2px;}
+.inpF {font-size:14px; font-family:Arial; height:25px; color:#444444; padding-left:3px;}	
+.selF {font-size:14px; font-family:Arial;   height: 29px; padding: 3px; color:#444444; }	
+
+
+.err {font-size:9px; font-family:Arial; color: red; }
+.bdcE {border:1px dotted red;}
+.color2_B_GE {background-color:#FFFFA3 !important; }
+
+.close { background-position: -5px -41px;    height: 15px;    left: 781px;    position: absolute;    top: 3px;    width: 15px; cursor:pointer;}
+
+.dot1 {    background-position: -318px -50px;    height: 56px;    left: 398px;    position: absolute;    top: 347px;    width: 6px;   }
+
+.dot2 {     background-position: -318px -50px;    height: 6px;    left: 409px;    position: absolute;    top: 397px;    width: 68px;   }
+
+.dot3 {     background-position: -318px -50px;    height: 6px;    left: 325px;    position: absolute;    top: 398px;    width: 68px;   }
+
+.paso1 {  font-size: 13px;    height: 60px;    left: 53px;    position: absolute;    top: 143px;    width: 270px;}
+.paso2 {   font-size: 13px;    height: 40px;    left: 153px;    position: absolute;    top: 206px;    width: 270px;}
+
+
+    
+.imgPs1 {  background-position: -236px -62px;    border: 1px solid;    height: 44px;    left: 279px;    position: absolute;    top: 0;    width: 70px;}   
+
+.num1 {background-position: -331px -60px;    height: 28px;    left: -36px;    position: absolute;    top: 3px;    width: 29px;} 
+
+
+.num2 {  background-position: -361px -59px;    height: 28px;    left: -36px;    position: absolute;    top: -5px;    width: 29px;}
+
+.ft1 {  font-family: Arial;    font-size: 18px;    left: 130px;    position: absolute;    text-align: center;    top: 0px;    width: 449px;   }
+
+.recuerda {    border: 1px solid #BBBBBB;    font-family: Arial;    font-size: 17px;    height: 94px;    left: 62px;    padding: 10px 10px 10px 50px;    position: absolute;    top: 100px;    width: 545px; cursor: pointer;}
+
+.latIfin { position:absolute; top:0px; left:0px; width:43px; height:114px; }
+
+.dedo {   height: 85px;    left: 482px;    position: absolute;    top: 29px;    width: 122px; }
+
+
+
+
+
+
+/* carrito 2 */
+
+.carrito_m { padding:15px; width: 470px; position:relative; float:left;}
+
+.carrito2 { padding:15px;  min-height:530px;    left: 50%;    position: fixed;     border: 1px solid #666666;    top: 50%;    width: 470px;    z-index: 9999; visibility: hidden;}
+
+.close2 { background-position: -5px -41px;    cursor: pointer;    height: 15px;    left: 481px;    position: absolute;    top: 3px;    width: 15px;}
+.TitForm { position: relative; float: left; width:450px; font-family: Arial; font-size:16px; font-weight:bold; color:#444444; text-align: center; margin-top:10px;}
+
+
+.nomCamp { position: relative; float: left; width:450px; font-family: Arial; font-size:12px; color:#888888; margin-top:8px; margin-bottom:0px; }
+.obli { color:red; }
+
+.formI 		{padding-left:5px; margin-left:-2px; font-family:Arial; color:#444444; font-size:12px; position:relative; border: 1px solid #AAAAAA; border-radius:0; height:16px; background-color:#ffffff;}
+.formI_e 	{padding-left:5px; margin-left:-2px; font-family:Arial; color:#444444; font-size:12px; position:relative; border: 1px dotted red; border-radius:0; height:16px; background-color:#FFFFA3;}
+
+
+
+.ftext1 {width: 245px; }
+
+
+.formS {margin-left:-2px; font-family:Arial; color:#888888; font-size:11px; background-color: #FFFFFF;   border: 1px solid #AAAAAA; padding:1px; margin-right:6px; }
+.formS_e {margin-left:-2px; font-family:Arial; color:#888888; font-size:11px; background-color: #FFFFA3;   border:1px dotted red; padding:1px; margin-right:6px; }
+
+
+option.fst {color:#888888;}
+option.nfst {color:#444444;}
+
+
+.titCurF {color: #888888;font-family: Arial;font-size: 14px;height: 17px; left: 120px; margin: 0;overflow: hidden;position: absolute; width: 310px;}
+
+.contFields {position:relative; float:left; width:260px;height:20px;}
+.contError	{position:relative; float:left; width:170px;height:20px; visibility:hidden;}
+.fleCErr	{background-position: -60px -41px; width :10px; height: 21px; position:relative; float: left; }
+.TxtErr		{font-family:Arial; font-size:9px; color:red; position:relative; float:left; margin:5px 0px 0px 1px;}
+
+
+.minfoF {   background-position: -134px -253px;float: left;height: 41px;margin-left: 26px; margin-top: 11px; position: relative; width: 262px; cursor:pointer; }
+
+.fmtF1 { background-position: -8px -110px;	float: left;  height: 44px;  margin-left: 5px;  margin-top: 8px;  position: relative;  width: 44px;}
+.fmtF2 { background-position: -57px -110px;	float: left;  height: 44px;  margin-left: 5px;  margin-top: 8px;  position: relative;  width: 44px;}
+.fmtF3 { background-position: -106px -110px;float: left;  height: 44px;  margin-left: 15px;  margin-top: 8px;  position: relative;  width: 44px;}
+.fmtF4 { background-position: -154px -110px;float: left;  height: 44px;  margin-left: 5px;  margin-top: 8px;  position: relative;  width: 48px;}
+
+
+.basesSeek {border: 1px solid #888888;float: left;position: relative;top: 5px; margin-bottom: 15px;}
+
+.cdcurF {position:relative; float:left; height:60px; width: 433px;}
+.fupForm {background-position: -75px -41px; position:absolute; top:3px; left:450px;width:15px; height:15px; cursor:pointer}
+.fdwForm {background-position: -88px -41px; position:absolute; top:37px; left:451px;width:15px; height:15px; cursor:pointer}
+
+.pieNue {position:relative; float:left; left:0px; width:443px; margin-top:0px; margin-bottom:-5px; background-color:#DDDDDD; padding:10px 0px 10px 27px;}
+.pieTx {position:relative; float:left: font-family: Arial; font-size:9px; color:#888888; margin-bottom:5px; width:414px;}
+.poli {width: 414px;}
+.cntF {position: relative; float:left; margin-top: 10px; left:30px;}
+
+

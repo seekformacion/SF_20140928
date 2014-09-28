@@ -1,0 +1,15 @@
+/* .cnpag {margin:0 auto; } */
+
+.pgtion    { list-style: none; padding:0px; }
+.pgtion li { 
+			position:relative; float:left; width:28px; 
+			padding:10px; text-align: center; border:1px solid #dddddd; margin-right:6px;
+			font-family: arial; color:#999999; font-size:19px;
+			}
+			
+			
+.pgtion li:hover { 
+			 background-color: #EEEEEE;
+			}			
+
+.ptSel { background-color: #ced2df !important; color:#ffffff !important;}

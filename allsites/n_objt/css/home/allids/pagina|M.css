@@ -1,0 +1,62 @@
+body {margin: 0}
+p {font-size:14px; font-family:Arial; color:#666666;}
+
+
+
+
+
+
+.pTal:hover {background-color: #566781;}
+.sel {color:#2c4161 !important; background-color: #ffffff !important; cursor:normal !important;}
+.sel:hover {color:#2c4161 !important; background-color: #ffffff !important; cursor:default !important;}
+
+
+
+.page {position:relative; margin: 0 auto;}
+.cbpag {position:relative; float: left; height:15px;}
+
+
+.cabLogo{position:relative; float:left; height:75px; background-image:url('/img/fondos/fondo1.jpg');}
+.logo {position:relative; float: right; margin:5px 10px 0 0; z-index:999}
+   
+
+.cR  {position:relative; float:left; background-color: #FFFFFF; top:0;  }
+
+.cnt {position:relative; float: left;}
+
+ 
+
+.cR a {
+ text-decoration:none;
+}
+
+
+.azB {	
+	background-color: #2c4161;position: absolute;z-index: 99999;
+}
+
+.Lnda { position:relative; width:100%; text-align: center;
+		padding:24px 0 0 0; font-family: Arial; color:#ffffff; font-size:19px; font-weight:bold;}
+
+.busc {    background-color: #ffffff;
+    border: 1px solid #999999;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 13px;
+    padding: 4px 4px 2px 8px;
+    position: absolute;
+    width: 246px;}
+
+.busc input {position:relative; float:left; background-color: transparent;margin:0px;width:212px; border:none; height:20px; font-size:15px; font-family:arial; padding:0px;}
+.busc input { color:#666666;  font-style:normal; margin-top:2px;}
+
+.busc input[type=submit] {cursor:pointer;position:relative; float:right;margin-top:0px; width:27px; height:26px; background-image:url('/img/iconos/iconos.png');}
+
+.busc ::-webkit-input-placeholder 	{color:#aaaaaa;  font-style:italic;}
+.busc :-moz-placeholder 			{color:#aaaaaa;  font-style:italic;}
+.busc ::-moz-placeholder 			{color:#aaaaaa;  font-style:italic;}
+.busc :-ms-input-placeholder 		{color:#aaaaaa;  font-style:italic;}
+
+
+
+

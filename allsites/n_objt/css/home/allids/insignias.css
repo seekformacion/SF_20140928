@@ -1,0 +1,13 @@
+.insi {padding: 15px 5px 5px 9px; position:relative; float:left;}
+.cg-p {position:relative; float:left;}
+
+.f-page {
+border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    float: right;
+    height: 85px;
+    margin: 0 0 0 9px;
+    padding: 16px 20px 3px 70px;
+    position: relative;
+    width: 282px;	
+}

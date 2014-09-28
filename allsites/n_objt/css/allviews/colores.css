@@ -1,0 +1,95 @@
+/*
+.gris1 {color:#EBEBEB !important;}
+.gris2 {color:#888888 !important;}
+.gris2_BG {background-color:#888888 !important;}
+.gris3 {color:#F1F4F8 !important;}
+.gris3_BG {background-color:#F1F4F8 !important;}
+
+.gris4 {color:#F4F7F4 !important;}
+.gris4_BG {background-color:#F4F7F4 !important;}
+
+
+.color1 {color:#227324 !important;}
+.color1 a {color:#227324 !important;}
+.color1_BG {background-color:#227324 !important;}
+
+.bdc1 {border:1px solid #227324; }
+
+
+.color2 {color:#CED2DF !important;}
+
+.titCCUR a:hover { background-color: #E0F3E6; }
+.bloqueCurDist li:hover { background-color: #E0F3E6;}    
+.listadoPROVIS li:hover { background-color: #E0F3E6;}
+
+
+.color4_BG {background-color: #C7EBC9 !important;}
+
+
+
+
+.blanco {color:#ffffff !important;}
+.blanco_BG {background-color: #ffffff !important;}
+
+.negro {color:#000000 !important;}
+.negro_BG {background-color: #000000 !important;}
+
+
+*/
+
+
+
+
+
+
+
+.color {color:#2C4161 !important;}
+
+
+.gris1_BG {background-color:#EBEBEB !important;}
+.color_BG {background-color:#2C4161 !important;}
+.color2_BG {background-color: #CED2DF !important;}
+
+.busc2 {background-image:url('/img/iconos/timR.gif') !important;}
+
+.iconos {background-image: url("/img/iconos/iconos.png");}
+
+.exP {margin-top:75px !important;}
+.tAl {position:relative; float:left;  width: 84%;}    
+.alert {     background-color: #aaaaaa;
+    border: 1px dotted;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 12px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    top: 10px;
+    width: 94%;}
+    
+.closeA { 
+background-position: -245px -91px;
+    cursor: pointer;
+    float: right;
+    height: 36px;
+    position: relative;
+    top: -3px;
+    width: 34px;
+}
+.ialert {
+   background-position: -259px -32px;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    position: relative;
+    top: -3px;
+    width: 34px;
+}
+
+
+.subinf{ position:relative; float:left; color:#DDDDDD; font-family:Arial; font-size:12px; margin:10px 0 0 15px; }
+.subinf a{  color:#DDDDDD; text-decoration: none;} 
+
+
+
