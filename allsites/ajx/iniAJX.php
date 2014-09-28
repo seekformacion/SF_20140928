@@ -25,7 +25,7 @@ $v['where']['site']=					"cursodecursos.com";
 $v['path']['repo']=						"/home/ebmoya/repositorios";
 $v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
-$v['path']['img']=$v['path']['repo'] .	"/SeekFormacion_images";
+$v['path']['img']=$v['path']['repo'] .	"/img";
 $v['path']['httpd']=					"/home/ebmoya/httpd/sf_201211/" . $v['where']['site'];
 
 $v['path']['baseURLskin'][1]=""; ## baseURL del SKIN local
