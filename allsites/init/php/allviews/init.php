@@ -41,10 +41,12 @@ includeCORE('db/dbfuncs');
 includeCORE('templates/templates');
 includeCORE('funcs/general');
 
-echo "aqui2";
 
 includeFUNC('URLdata');  ##### obtengo datos de la url tipo de pagina e id asociado
+
+echo "aqui3";
 includeCORE('funcs/phrassCount');
+
 
 
 #echo loadChild('objt','arbol');
