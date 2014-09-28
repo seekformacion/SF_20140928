@@ -12,7 +12,7 @@ $v['where']['url']=$_GET['q'];
 $v['where']['url']='/';	
 }
 
-echo "aqui";
+
 
 if(strpos($v['where']['url'],'search/')){$v['where']['url']=str_replace('/search/','/',$v['where']['url']);$v['search']=1;};
 
@@ -40,6 +40,9 @@ includeINIT('config');
 includeCORE('db/dbfuncs');
 includeCORE('templates/templates');
 includeCORE('funcs/general');
+
+echo "aqui2";
+
 includeFUNC('URLdata');  ##### obtengo datos de la url tipo de pagina e id asociado
 includeCORE('funcs/phrassCount');
 
