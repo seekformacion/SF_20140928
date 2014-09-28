@@ -12,7 +12,7 @@ $v['where']['url']=$_GET['q'];
 $v['where']['url']='/';	
 }
 
-
+echo "aqui";
 
 if(strpos($v['where']['url'],'search/')){$v['where']['url']=str_replace('/search/','/',$v['where']['url']);$v['search']=1;};
 
