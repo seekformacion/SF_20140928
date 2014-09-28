@@ -22,7 +22,7 @@ $v['conf']['mode']=1; # 1=local 2=cloud
 $v['where']['idp']=						1; #### ID DEL PORTAL PARA TABLA urls
 
 $v['where']['site']=					"n-cursodecursos.com";
-$v['path']['repo']=						"/home/ebmoya/repositorios";
+$v['path']['repo']=						"/www/repositorios";
 $v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
 $v['path']['img']=$v['path']['repo'] .	"/img";
