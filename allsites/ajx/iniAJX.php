@@ -3,7 +3,7 @@
 global $v;
 
 $v['debugIN']=0;
-$v['where']['cacheQ']=0;
+$v['where']['cacheQ']=1;
 
 include('/www/dbA.php');  
 
@@ -26,7 +26,7 @@ $v['path']['repo']=						"/home/ebmoya/repositorios";
 $v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
 $v['path']['img']=$v['path']['repo'] .	"/img";
-$v['path']['httpd']=					"/home/ebmoya/httpd/sf_201211/" . $v['where']['site'];
+$v['path']['httpd']=					"/www/httpd/" . $v['where']['site'];
 
 $v['path']['baseURLskin'][1]=""; ## baseURL del SKIN local
 $v['path']['baseURLskin'][2]="http://s3-eu-west-1.amazonaws.com/seekf"; ## baseURL del SKIN en CLOUD
