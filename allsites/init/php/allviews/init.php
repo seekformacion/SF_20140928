@@ -42,6 +42,7 @@ includeFUNC('URLdata');  ##### obtengo datos de la url tipo de pagina e id asoci
 includeCORE('funcs/phrassCount');
 
 
+
 #echo loadChild('objt','arbol');
 
 loadCSS('n_objt','colores');
