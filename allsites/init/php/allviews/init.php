@@ -32,22 +32,15 @@ $v['where']['view']='none';
 $v['where']['id']=0; #################
 require_once $v['path']['fw'] . '/core/templates/paths.php';
 
-
-
 includeINIT('vars');
 includeINIT('provins');
 includeINIT('config');
 includeCORE('db/dbfuncs');
 includeCORE('templates/templates');
 includeCORE('funcs/general');
-
-
 includeFUNC('URLdata');  ##### obtengo datos de la url tipo de pagina e id asociado
-
-
 includeCORE('funcs/phrassCount');
 
-echo "aqui4";
 
 #echo loadChild('objt','arbol');
 
