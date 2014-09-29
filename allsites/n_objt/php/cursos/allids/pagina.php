@@ -224,6 +224,9 @@ $cnt['temario']=ldsecc('temario',$cnte,"Temario.");
 $Datos['secciones']=$cnt['cert'] . $cnt['dur'] . $cnt['geo'] . $cnt['prepara'] . $cnt['dirigido'] . $cnt['temario'];
 $Datos['footer']=loadChild('n_objt','footer');
 
+$Datos['fburl']="http://" . $v['where']['site']  . $v['where']['urlSimple'];
+
+
 //print_r($Datos);
 //$Datos['footer']=loadChild('objt','footer');
 
