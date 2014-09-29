@@ -24,6 +24,8 @@ $Datos['homet']=$v['vars']['purlT'][$idp];
 
 if(!array_key_exists('search', $v)){
 $img=imgCATg($v['where']['id']); 
+$v['imgCat']=$img;
+
 
 $Datos['imgC1']="<img class='imgCat' alt='". $v['where']['pagTittle'] . "' src='$img'>";
 $Datos['imgC2']="<div class='imgCont'></div>";
