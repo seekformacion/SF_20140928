@@ -30,9 +30,9 @@ $v['where']['site']=					"cursodecursos.com";
 
 
 
-$v['path']['bin']=$v['path']['repo'] .	"/SF_20121104";
+$v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
-$v['path']['img']=$v['path']['repo'] .	"/SeekFormacion_images";
+$v['path']['img']=$v['path']['repo'] .	"/img";
 
 $v['path']['baseURLskin'][1]=""; ## baseURL del SKIN local
 $v['path']['baseURLskin'][2]="http://s3-eu-west-1.amazonaws.com/seekf"; ## baseURL del SKIN en CLOUD

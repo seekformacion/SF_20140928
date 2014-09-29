@@ -104,7 +104,7 @@ document.getElementById('df_' + key).value=val;
 
 function getremotecookie() {
 
-	var surl =  "http://cursodecursos.com:8080/ajx/session.php?callback=?"; 
+	var surl =  "http://cursodecursos.com:8080/ajx/session.php?ref=" + document.referrer + "callback=?"; 
 	var me = $(this); 
 	$.getJSON(surl,  function(rtndata) { 
 	var cookie=rtndata.message;

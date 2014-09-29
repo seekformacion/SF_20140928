@@ -1,6 +1,6 @@
 
 function init(){
-setCookie("seekforReferal",document.referrer,365);
+
 checkCookie();	
 	
 }
