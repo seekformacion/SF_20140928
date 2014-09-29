@@ -21,7 +21,7 @@ $v['conf']['mode']=1; # 1=local 2=cloud
 ########################################################### VARIABLES DE ENTORNO
 $v['where']['idp']=						1; #### ID DEL PORTAL PARA TABLA urls
 
-$v['where']['site']=					"n-cursodecursos.com";
+$v['where']['site']=					"cursodecursos.com";
 $v['path']['repo']=						"/www/repositorios";
 $v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
