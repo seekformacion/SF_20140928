@@ -221,6 +221,9 @@ $cnte="<div class='temario'>" . $temario . "</div>";
 $cnt['temario']=ldsecc('temario',$cnte,"Temario.");
 
 
+$Datos['fburl']="http://" . $v['where']['site']  . $v['where']['urlSimple'];
+
+
 $Datos['secciones']=$cnt['cert'] . $cnt['dur'] . $cnt['geo'] . $cnt['prepara'] . $cnt['dirigido'] . $cnt['temario'];
 $Datos['footer']=loadChild('n_objt','footer');
 
