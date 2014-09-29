@@ -104,16 +104,16 @@ document.getElementById('df_' + key).value=val;
 
 function getremotecookie() {
 
-	var surl =  "http://cursodecursos.com:8080/ajx/session.php?ref=" + encodeURI(document.referrer) + "&callback=?"; 
+	var surl =  "http://cursodecursos.com:8080/ajx/session.php?callback=?"; 
 	var me = $(this); 
 	$.getJSON(surl,  function(rtndata) { 
 	var cookie=rtndata.message;
 	var csin=cookie.replace('||new','');
 	//console.log(csin);
 	
-	
 	if(csin.length < cookie.length){
-	cookie=csin; window.top.accept=1;		}
+	cookie=csin; window.top.accept=1;	
+	}
 	
 	
 	setCookie("seekforID",cookie,365);
