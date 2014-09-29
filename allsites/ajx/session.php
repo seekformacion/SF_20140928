@@ -16,7 +16,7 @@ $new=0;
 if (isset($_COOKIE["seekforID"])){
 $seekforID= $_COOKIE["seekforID"];
 }else{$new=1;
-$seekforID=create_new_user($_GET['ref']);
+$seekforID=create_new_user();
 $expire=time()+60*60*24*30;
 setcookie("seekforID", $seekforID, $expire, '/');
 }
