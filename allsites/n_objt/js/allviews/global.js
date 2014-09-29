@@ -111,9 +111,9 @@ function getremotecookie() {
 	var csin=cookie.replace('||new','');
 	//console.log(csin);
 	
+	
 	if(csin.length < cookie.length){
-	cookie=csin; window.top.accept=1;	
-	}
+	cookie=csin; window.top.accept=1;		}
 	
 	
 	setCookie("seekforID",cookie,365);
