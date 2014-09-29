@@ -1,5 +1,5 @@
 <?php
-$_SERVER['HTTP_X_UA_DEVICE']='M';
+//$_SERVER['HTTP_X_UA_DEVICE']='M';
 foreach($_GET as $nombre_campo => $valor){  $asignacion = "\$" . $nombre_campo . "='" . $valor . "';";   eval($asignacion);};
 
 $v['where']['view']='cursos';
