@@ -69,6 +69,7 @@ document.getElementById("viewport").setAttribute("content", "width=" + ancho + "
 
 
 function init(){
+setCookie("seekforReferal",document.referrer,365);	
 first();
 checkCookie();	
 	
