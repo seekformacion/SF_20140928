@@ -25,6 +25,8 @@ loadCSS('n_objt','formM');
 $metas=loadChild('n_objt','metasFM');
 
 
+print_r($v);
+
 ?>
 
 <!DOCTYPE html>
