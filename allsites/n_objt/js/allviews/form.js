@@ -238,7 +238,7 @@ function sendCupon(){
 
 vcup=document.getElementById('valorCup').value;
 vcup=Math.round(Number(vcup));
-//ga('send', 'event', 'MasInfo','enviado','enviado',vcup);
+ga('send', 'event', 'MasInfo','enviado','enviado',vcup);
 
 $.ajaxSetup({ cache: false });
 $.ajaxSetup({'async': true});
