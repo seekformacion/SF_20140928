@@ -228,7 +228,7 @@ $Datos['secciones']=$cnt['cert'] . $cnt['dur'] . $cnt['geo'] . $cnt['prepara'] .
 $Datos['footer']=loadChild('n_objt','footer');
 
 $Datos['FURL']="/ajx/sinformacion.php?idcur=$idcur";
-
+$Datos['altIMGc']=$v['where']['pagTittle'];
 //print_r($Datos);
 //$Datos['footer']=loadChild('objt','footer');
 

@@ -226,7 +226,7 @@ $Datos['footer']=loadChild('n_objt','footer');
 
 $Datos['fburl']="http://" . $v['where']['site']  . $v['where']['urlSimple'];
 
-
+$Datos['altIMGc']=$v['where']['pagTittle'];
 //print_r($Datos);
 //$Datos['footer']=loadChild('objt','footer');
 
