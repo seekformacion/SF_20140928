@@ -94,6 +94,12 @@ $err="";
 $nue=DBselectSDB("SELECT showC FROM skP_cursos WHERE id=$idcur;",'seekpanel');
 if(count($nue)>0){$show=$nue[1]['showC'];
 
+if($show==0){
+$limp=limpiaCur($idcur);
+}else{
+$proccess=processCUR($idcur);     
+}
+
 $err.=DBUpInsSDB("UPDATE skv_relCurCats SET showC='$show' WHERE id_cur=$idcur;",'seekformacion');	
 	
 }

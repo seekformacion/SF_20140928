@@ -15,9 +15,9 @@ $v['where']['idp']=						1; #### ID DEL PORTAL PARA TABLA urls
 $v['where']['view']=					'sitemaps'; #### ID DEL PORTAL PARA TABLA urls
 $v['where']['id']=					    '1'; 
 $v['where']['site']=					"cursodecursos.com";
-$v['path']['bin']=$v['path']['repo'] .	"/SF_20121104";
+$v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
-$v['path']['img']=$v['path']['repo'] .	"/SeekFormacion_images";
+$v['path']['img']=$v['path']['repo'] .	"/img";
 $v['path']['baseURLskin'][1]=""; ## baseURL del SKIN local
 $v['path']['baseURLskin'][2]="http://s3-eu-west-1.amazonaws.com/seekf"; ## baseURL del SKIN en CLOUD
 
@@ -30,12 +30,13 @@ includeINIT('config');
 includeCORE('db/dbfuncs');
 includeCORE('templates/templates');
 includeCORE('funcs/general');
+includeCORE('funcs/phrassCount');
 
 echo "\n\n";
 
 
 ######## cursos nuevos
-$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=1 AND done=0 ORDER BY datestamp",'seekpanel');
+$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=1 AND done=0 ORDER BY datestamp limit 5",'seekpanel');
 if(count($nue)>0){
 foreach ($nue as $key => $value) {
 $ida=$value['id']; $idcur=$value['act_id'];$err="";$err2="";
@@ -47,6 +48,7 @@ echo "CREO $idcur" .  $err . " : \n";
 	if((!trim($err))&&(!trim($err2))){
 	$eid=updtCUR($idcur);
 	if(!$eid){
+	processCUR($idcur);    
 	$err=DBUpInsSDB("UPDATE skP_actions SET done=1 WHERE id=$ida;",'seekpanel');	
 	}		
 	}
@@ -56,7 +58,7 @@ echo "CREO $idcur" .  $err . " : \n";
 
 
 ######## cursos modificados
-$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=5 AND done=0 ORDER BY datestamp",'seekpanel');
+$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=5 AND done=0 ORDER BY datestamp limit 5",'seekpanel');
 if(count($nue)>0){
 foreach ($nue as $key => $value) {
 $ida=$value['id']; $idcur=$value['act_id'];$err="";$err2="";
@@ -64,6 +66,8 @@ echo "Modif $idcur" .  $err . " : \n";
 	$eid="";
 	$eid=updtCUR($idcur);
 	if(!$eid){
+	$limp=limpiaCur($idcur);
+    $proccess=processCUR($idcur);    
 	$err=DBUpInsSDB("UPDATE skP_actions SET done=1 WHERE id=$ida;",'seekpanel');	
 	}		
 	
@@ -80,7 +84,7 @@ echo "Modif $idcur" .  $err . " : \n";
 
 
 ######## cursos borrar
-$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=4 AND done=0 ORDER BY datestamp",'seekpanel');
+$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=4 AND done=0 ORDER BY datestamp limit 5",'seekpanel');
 if(count($nue)>0){
 foreach ($nue as $key => $value) {
 $ida=$value['id']; $idcur=$value['act_id'];$err="";$err2="";
@@ -88,6 +92,8 @@ echo "Borra $idcur" .  $err . " : \n";
 	$eid="";
 	$eid=borraCUR($idcur);
 	if(!$eid){
+	$limp=limpiaCur($idcur);
+    $proccess=processCUR($idcur);     
 	$err=DBUpInsSDB("UPDATE skP_actions SET done=1 WHERE id=$ida;",'seekpanel');	
 	}		
 	
@@ -98,7 +104,7 @@ echo "Borra $idcur" .  $err . " : \n";
 
 
 ######## cursos showC
-$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=2 AND done=0 ORDER BY datestamp",'seekpanel');
+$nue=DBselectSDB("SELECT id, act_id from skP_actions WHERE accion=2 AND done=0 ORDER BY datestamp limit 5",'seekpanel');
 if(count($nue)>0){
 foreach ($nue as $key => $value) {
 $ida=$value['id']; $idcur=$value['act_id'];$err="";$err2="";
