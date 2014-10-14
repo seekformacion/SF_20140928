@@ -11,7 +11,7 @@
 
 	
 <div id="fb-root"></div>
-<script async="defer">(function(d, s, id) {
+<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -34,7 +34,7 @@
 <div class="cabLogo">
 %imgC2%	
 
-<a href="%home%" title="%homet%"><img src="%imgLogo%" alt="%homet%" class="logo" border="0"></a>	
+<a href="%home%" title="%homet%"><img src="%imgLogo%" alt="%homet%" class="logo"></a>	
 </div>
 
 <div class="cnt">
@@ -69,7 +69,12 @@
 <div class="cR">
 <h1>%pagTittle%</h1>
 
-<div class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">%breadcrumbs%</div>
+<div class="breadcrumbs">
+<ul>%breadcrumbs%</ul>
+<div class="clr"></div>	
+</div>
+
+
 
 <div class="socLk">
 <div class="fbLik">
@@ -90,8 +95,7 @@
 </div>
 
 
-<div style="clear: both"></div>	
-
+<div class="clr"></div>
 
 
 

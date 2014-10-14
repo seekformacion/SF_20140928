@@ -326,3 +326,5 @@ h4 p 	  {font-size:12px; font-family:Arial; font-weight: normal; color:#666666;}
 .breadcrumbs {font-size:14px; font-family:Arial; font-weight: normal; color:#FF9900; margin:7px 0 0 0; }
 .breadcrumbs a {font-size:14px; font-family:Arial; font-weight: normal; color:#FF9900; }
 
+.breadcrumbs ul {padding:0px; }
+.breadcrumbs li {position:relative; float:left; list-style: none; margin-right:5px; }

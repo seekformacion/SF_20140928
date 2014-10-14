@@ -30,8 +30,12 @@ $url=$dat['url']; $n=$dat['pagTittleC'];
 	if($url=="/"){
 	$url=$v['vars']['purl'][$idp];
 	$n=$v['vars']['purlT'][$idp];
-	$bc.="<a itemtype='http://data-vocabulary.org/Breadcrumb' href='$url' title='$n' itemprop='url'><span itemprop='title'>$n</span></a>";
-	}else{$bc.=" > <a itemtype='http://data-vocabulary.org/Breadcrumb' href='$url' itemprop='url'><span itemprop='title'>$n</span></a> "; $bc2.="<a itemtype='http://data-vocabulary.org/Breadcrumb' href='$url' itemprop='url'><span itemprop='title'>$n</span></a> >> ";};
+	       $bc.="<li itemtype='http://data-vocabulary.org/Breadcrumb'><a href='$url' title='$n' itemprop='url'><span itemprop='title'>$n</span></a> > </li>";
+	}else{
+	      $bc.=" <li itemtype='http://data-vocabulary.org/Breadcrumb'><a href='$url' itemprop='url'><span itemprop='title'>$n</span></a> > </li>";
+          $bc2.="<li itemtype='http://data-vocabulary.org/Breadcrumb'><a href='$url' itemprop='url'><span itemprop='title'>$n</span></a> > </li>";
+    
+    };
 }}
 
 
@@ -58,8 +62,11 @@ $url=$dat['url']; $n=$dat['pagTittleC'];
 	if($url=="/"){
 	$url=$v['vars']['purl'][$idp];
 	$n=$v['vars']['purlT'][$idp];
-	$bc.="<a itemtype='http://data-vocabulary.org/Breadcrumb' href='$url' itemprop='url'><span itemprop='title'>$n</span></a>";
-	}else{$bc.="> <a itemtype='http://data-vocabulary.org/Breadcrumb' href='$url' itemprop='url'><span itemprop='title'>$n</span></a> ";};
+	           $bc.="<li itemtype='http://data-vocabulary.org/Breadcrumb'><a href='$url' itemprop='url'><span itemprop='title'>$n</span></a> > </li>";
+	}else{
+	           $bc.="<li itemtype='http://data-vocabulary.org/Breadcrumb'><a href='$url' itemprop='url'><span itemprop='title'>$n</span></a> > </li>";
+	           
+	           };
 }}
 
 
