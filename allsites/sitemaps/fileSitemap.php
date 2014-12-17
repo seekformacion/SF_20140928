@@ -33,7 +33,7 @@ $v['where']['site']=					"cursodecursos.com";
 
 
 
-$v['path']['bin']=$v['path']['repo'] .	"/SF_20121104";
+$v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
 $v['path']['img']=$v['path']['repo'] .	"/SeekFormacion_images";
 
@@ -52,6 +52,7 @@ require_once $v['path']['fw'] . '/core/templates/paths.php';
 includeINIT('vars');
 includeINIT('provins');
 includeINIT('config');
+
 includeCORE('db/dbfuncs');
 includeCORE('templates/templates');
 includeCORE('funcs/general');
