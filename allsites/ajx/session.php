@@ -27,7 +27,8 @@ setcookie("seekforID", $seekforID, $expire, '/');
 if (isset($_GET['id'])) $rtnjsonobj->id = $_GET['id'];
 
 if($new){$seekforID.="||new";};
- 
+
+$rtnjsonobj=new stdClass();
 $rtnjsonobj->message = $seekforID;
 echo $_GET['callback']. '('. json_encode($rtnjsonobj) . ')';  
 
