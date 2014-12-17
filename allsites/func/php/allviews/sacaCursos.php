@@ -218,7 +218,7 @@ $min=end($pesos2);
 //echo "max: $max  min: $min  np:$np \n";
 $dife=round($max/$np);
 
-$a=0; $pos=$max;
+$a=0; $pos=$max; $pf=0;
 foreach ($pesos2 as $idcu => $peso) {$np=$v['where']['npags'];
 	while ($np > 0){
 	$pos=$max-($dife*$np);

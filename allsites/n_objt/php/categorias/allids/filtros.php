@@ -1,6 +1,6 @@
 <?php 
 
-$subs=$v['subs'];
+if(isset($v['subs'])){$subs=$v['subs'];}else{$subs='';}
 
 $idpro=$v['where']['id_provi'];
 $online=$v['where']['online'];
