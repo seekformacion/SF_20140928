@@ -31,13 +31,13 @@ $dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0;",'frwrules');
 if(count($dcats)>0){
     foreach ($dcats as $kk => $vals){
         $ip=$vals['ip']; $done=$vals['done']; $id=$vals['id'];
-        exec("ufw allow from $ip");
+        exec("sudo ufw allow from $ip");
 
         $dcats2=DBselectSDB("select * from rules WHERE tipo='d' AND done=1;",'frwrules');
         if(count($dcats2)>0) {
             foreach ($dcats2 as $kk => $vals) {
                 $ip2=$vals['ip']; $done2=$vals['done']; $id2=$vals['id'];
-                exec("ufw delete allow from $ip2");
+                exec("sudo ufw delete allow from $ip2");
                 DBUpInsSDB("DELETE FROM rules WHERE id=$id2;",'frwrules');
             }
         }
