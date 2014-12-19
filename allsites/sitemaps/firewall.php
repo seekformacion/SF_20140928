@@ -46,7 +46,7 @@ if(count($dcats)>0){
     }
 }
 
-echo "\n" . exec("ufw status") . "\n" ;
+echo "\n" . exec("ufw status verbose") . "\n" ;
 
 
 ?>
