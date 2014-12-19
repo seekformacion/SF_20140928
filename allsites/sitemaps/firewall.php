@@ -27,7 +27,7 @@ $dcats=DBselectSDB("select * from rules",'frwrules');
 
 print_r($dcats);
 
-
+exec("ufw status");
 
 
 ?>
