@@ -11,8 +11,11 @@ $v['admin']=0;
 $v['conf']['state']=1; # 1=test 2=produccion
 $v['conf']['mode']=1; # 1=local 2=cloud
 
+$v['path']['bin']=$v['path']['repo'] .	"/SF_20140928";
 $v['path']['fw']=$v['path']['repo'] .	"/FrameW_1";
-$v['path']['img']=$v['path']['repo'] .	"/img";
+
+$v['where']['view']=					'sitemaps'; #### ID DEL PORTAL PARA TABLA urls
+$v['where']['id']=					    '1';
 
 $v['path']['baseURLskin'][1]=""; ## baseURL del SKIN local
 $v['path']['baseURLskin'][2]="http://s3-eu-west-1.amazonaws.com/seekf"; ## baseURL del SKIN en CLOUD
