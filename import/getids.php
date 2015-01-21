@@ -25,7 +25,7 @@ $c = $dat[1]['C'];
 $dat = DBselect("SELECT lastpos from status where server=$ids;");
 $lp = $dat[1]['lastpos'];
 
-$fp = $lp + 1500;
+$fp = $lp + 3000;
 
 
 $client = new SoapClient("http://www.marinespecies.org/aphia.php?p=soap&wsdl=1");
