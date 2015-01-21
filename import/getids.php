@@ -15,7 +15,7 @@ $v['debug'] = 0;
 set_time_limit(0);
 ini_set("memory_limit", "-1");
 
-print_r($argv);
+
 
 $ids = $argv[1];
 
@@ -25,7 +25,7 @@ $c = $dat[1]['C'];
 $dat = DBselect("SELECT lastpos from status where server=$ids;");
 $lp = $dat[1]['lastpos'];
 
-$fp = $lp + 500;
+$fp = $lp + 1500;
 
 
 $client = new SoapClient("http://www.marinespecies.org/aphia.php?p=soap&wsdl=1");
