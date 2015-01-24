@@ -27,7 +27,7 @@ includeCORE('db/dbfuncs');
 
 
 $dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0;",'frwrules');
-
+print_r($dcats);
 if(count($dcats)>0){
     foreach ($dcats as $kk => $vals){
         $ip=$vals['ip']; $done=$vals['done']; $id=$vals['id'];
