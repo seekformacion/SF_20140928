@@ -26,28 +26,28 @@ require_once $v['path']['fw'] . '/core/templates/paths.php';
 includeCORE('db/dbfuncs');
 $server=gethostname();
 
-$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND server='$server';",'frwrules');
+$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND server='$server';",'laiislac_frwrules');
 if(count($dcats)==0){
-    DBUpInsSDB("INSERT INTO rules (server,tipo,ip,done) VALUES ('$server','d','x.x.x.x',1)",'frwrules');
+    DBUpInsSDB("INSERT INTO rules (server,tipo,ip,done) VALUES ('$server','d','x.x.x.x',1)",'laiislac_frwrules');
 }
 
-$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0 AND server='$server' ORDER BY id DESC limit 1;",'frwrules');
+$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0 AND server='$server' ORDER BY id DESC limit 1;",'laiislac_frwrules');
 
 if(count($dcats)>0){
     foreach ($dcats as $kk => $vals){
         $ip=$vals['ip']; $done=$vals['done']; $id=$vals['id'];
 
-        $dcats2=DBselectSDB("select * from rules WHERE tipo='d' AND done=1 AND server='$server';",'frwrules');
+        $dcats2=DBselectSDB("select * from rules WHERE tipo='d' AND done=1 AND server='$server';",'laiislac_frwrules');
         if(count($dcats2)>0) {
             foreach ($dcats2 as $kk => $vals) {
                 $ip2=$vals['ip']; $done2=$vals['done']; $id2=$vals['id'];
                 exec("sudo ufw delete allow from $ip2");
-                DBUpInsSDB("DELETE FROM rules WHERE id=$id2;",'frwrules');
+                DBUpInsSDB("DELETE FROM rules WHERE id=$id2;",'laiislac_frwrules');
             }
         }
 
         exec("sudo ufw allow from $ip");
-        DBUpInsSDB("UPDATE rules SET done=1 WHERE id=$id;",'frwrules');
+        DBUpInsSDB("UPDATE rules SET done=1 WHERE id=$id;",'laiislac_frwrules');
     }
 }
 
