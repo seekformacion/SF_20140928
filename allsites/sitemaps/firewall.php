@@ -3,7 +3,7 @@ set_time_limit(0);
 ini_set("memory_limit", "-1");
 
 
-include('/www/dbA.php');
+include('/www/dbH.php');
 
 $v['debug']=0;
 $v['admin']=0;
@@ -24,16 +24,20 @@ $v['path']['baseURLskin'][2]="http://s3-eu-west-1.amazonaws.com/seekf"; ## baseU
 require_once $v['path']['fw'] . '/core/templates/paths.php';
 
 includeCORE('db/dbfuncs');
+$server=gethostname();
 
+$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND server='$server';",'frwrules');
+if(count($dcats)==0){
+    DBUpInsSDB("INSERT INTO rules (server,tipo,ip,done) VALUES ('$server','d','x.x.x.x',1)",'frwrules');
+}
 
-$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0;",'frwrules');
-print_r($dcats);
+$dcats=DBselectSDB("select * from rules WHERE tipo='d' AND done=0 AND server='$server' ORDER BY id DESC limit 1;",'frwrules');
+
 if(count($dcats)>0){
     foreach ($dcats as $kk => $vals){
         $ip=$vals['ip']; $done=$vals['done']; $id=$vals['id'];
-        exec("sudo ufw allow from $ip");
 
-        $dcats2=DBselectSDB("select * from rules WHERE tipo='d' AND done=1;",'frwrules');
+        $dcats2=DBselectSDB("select * from rules WHERE tipo='d' AND done=1 AND server='$server';",'frwrules');
         if(count($dcats2)>0) {
             foreach ($dcats2 as $kk => $vals) {
                 $ip2=$vals['ip']; $done2=$vals['done']; $id2=$vals['id'];
@@ -42,6 +46,7 @@ if(count($dcats)>0){
             }
         }
 
+        exec("sudo ufw allow from $ip");
         DBUpInsSDB("UPDATE rules SET done=1 WHERE id=$id;",'frwrules');
     }
 }
